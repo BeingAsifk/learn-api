@@ -1,0 +1,16 @@
+###
+GET  http://localhost:5353/api/stock?stock=mrna&password=1234
+
+### 
+POST http://localhost:5353/api/test 
+Content-Type: application/json
+
+{
+"message": "Hello world"
+}
+
+###
+ GET http://localhost:5353/api/testParams/dyanmicWord
+
+###
+GET https://stocks-jvoh.onrender.com/api/stock?stock=mrna&password=1234
